@@ -24,8 +24,8 @@ jobs:
               run: npm install
             - run: node app.js
               env:
-                cookie: ${{ secrets.JD_COOKIE }}
+                COOKIE: ${{ secrets.JD_COOKIE }}
                 PUSH_PLUS_TOKEN: ${{ secrets.JD_COOKIE_2 }} 
-                aid: ${{ secrets.PUSH_KEY }}
-                uuid: ${{ secrets.PUSH_KEY }}
-                _signature: ${{ secrets.PUSH_KEY }}
+                AID: ${{ secrets.PUSH_KEY }}
+                UUID: ${{ secrets.PUSH_KEY }}
+                _SIGNATURE: ${{ secrets.PUSH_KEY }}
