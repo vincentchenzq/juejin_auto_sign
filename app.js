@@ -3,6 +3,10 @@ const got = require('got')
 const { cookie, aid, uuid, _signature, PUSH_PLUS_TOKEN } = require('./config')
 console.log(cookie, aid, uuid, _signature, PUSH_PLUS_TOKEN)
 
+console.log('============')
+console.log(process.env.cookie)
+console.log(process.env.PUSH_PLUS_TOKEN)
+
 const BASEURL = 'https://api.juejin.cn/growth_api/v1/check_in' // 掘金签到api
 const PUSH_URL = 'http://www.pushplus.plus/send' // pushplus 推送api
 
