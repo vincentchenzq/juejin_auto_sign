@@ -1,5 +1,5 @@
 module.exports = {
-  cookie: process.env.cookie,
+  cookie: process.env.JD_COOKIE,
   PUSH_PLUS_TOKEN: process.env.PUSH_PLUS_TOKEN,
   aid: process.env.aid,
   uuid: process.env.uuid,
